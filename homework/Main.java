@@ -30,7 +30,6 @@ class Main {
 		} else {
 			throw new RuntimeException("请输入所提示的数据！");
 		}
-		sc.close();
 		// 结束后判断是否继续
 		scan.isContinue();
 

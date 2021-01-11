@@ -36,10 +36,7 @@ public class Scan {
 
 			}
 		}
-
-		System.out.println("扫描结束~");
-		// 遍历完成以后调用isContinue()方法
-		isContinue();
+		
 
 	}
 
@@ -56,6 +53,7 @@ public class Scan {
 		if (i == 1) {			
 			//通过Main()方法判断是否重新扫描
 			Main main = new Main();
+			main.Main();
 		} else if (i == 2) {
 			//如果输入2则直接退出
 			System.exit(0);

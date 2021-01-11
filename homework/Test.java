@@ -9,9 +9,8 @@ public class Test {
 	 */
 
 	public static void main(String[] args) {
-		//调用Main的构造方法时就会执行
 		Main main = new Main();
-		
+		main.Main();
 	}
 
 }

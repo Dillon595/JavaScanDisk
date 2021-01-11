@@ -23,7 +23,8 @@ class Main {
 			System.out.println("扫描结束");
 		} else if (i == 2) {
 			System.out.println("请输入指定路径：（格式：'c：/user/xxx'）");
-			String path = sc.next();
+			sc.nextLine();
+			String path = sc.nextLine();
 			// 将用户输入的路径放入一个新的File对象中
 			scan.allScan(new File(path));
 			System.out.println("扫描结束");
